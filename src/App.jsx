@@ -7,7 +7,7 @@ import './index.css';
 export default function App() {
   const [tasks, setTasks] = useState([]);
 
-  // Add new task
+  
   const addTask = (taskText) => {
     const newTask = {
       id: Date.now(),
@@ -17,7 +17,7 @@ export default function App() {
     setTasks([...tasks, newTask]);
   };
 
-  // Toggle task completion
+  
   const toggleComplete = (taskId) => {
     setTasks(
       tasks.map((task) =>
@@ -26,7 +26,7 @@ export default function App() {
     );
   };
 
-  // Delete task
+ 
   const deleteTask = (taskId) => {
     setTasks(tasks.filter((task) => task.id !== taskId));
   };

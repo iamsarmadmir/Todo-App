@@ -1,11 +1,11 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Container Styling */
+
 .app-container {
   width: 300px;
   margin: 50px auto;
@@ -15,7 +15,7 @@
   background-color: #f9f9f9;
 }
 
-/* Header Styling */
+
 header {
   text-align: center;
   margin-bottom: 20px;
@@ -26,7 +26,7 @@ h1 {
   color: #333;
 }
 
-/* TodoForm Styling */
+
 form {
   display: flex;
   margin-bottom: 20px;
@@ -55,7 +55,7 @@ button:hover {
   background-color: #4cae4c;
 }
 
-/* TodoList Styling */
+
 ul {
   list-style-type: none;
   padding: 0;
